@@ -17,6 +17,7 @@ body {
   align-items: center;
   width: 940px;
   height: 506px;
+  border-radius: 15px;
 }
 
 .box {
@@ -61,17 +62,7 @@ body {
   margin-bottom: 30px;
   margin-left: 30px;
   font-size: 15px;
- color: hsl(220, 15%, 55%);
+  color: hsl(220, 15%, 55%);
 
 }
 
-@media only screen and (max-width: 375px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 375px;
-    }
-
-@media only screen and (min-width: 1440px)
-{
-    width: 1440px;
-}
