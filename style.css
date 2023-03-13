@@ -4,6 +4,7 @@
 }
 
 body {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,10 +16,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 940px;
-  height: 506px;
-  border-radius: 15px;
-  text-align: center;
+  width: 1440px;
+  height: 100vh;
+ border-radius: 15px;
+  
 
 }
 
@@ -32,6 +33,7 @@ body {
   word-wrap: break-word;
   block-size: fit-content;
   border-radius: 15px;
+  text-align: center;
 }
 
 .image img {
